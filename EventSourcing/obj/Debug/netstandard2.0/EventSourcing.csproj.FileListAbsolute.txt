@@ -1,0 +1,11 @@
+C:\Users\barna\source\repos\WikidataEventSourcing\EventSourcing\bin\Debug\netstandard2.0\EventSourcing.deps.json
+C:\Users\barna\source\repos\WikidataEventSourcing\EventSourcing\bin\Debug\netstandard2.0\EventSourcing.dll
+C:\Users\barna\source\repos\WikidataEventSourcing\EventSourcing\obj\Debug\netstandard2.0\EventSourcing.csprojAssemblyReference.cache
+C:\Users\barna\source\repos\WikidataEventSourcing\EventSourcing\obj\Debug\netstandard2.0\EventSourcing.AssemblyInfoInputs.cache
+C:\Users\barna\source\repos\WikidataEventSourcing\EventSourcing\obj\Debug\netstandard2.0\EventSourcing.AssemblyInfo.cs
+C:\Users\barna\source\repos\WikidataEventSourcing\EventSourcing\bin\Debug\netstandard2.0\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\barna\source\repos\WikidataEventSourcing\EventSourcing\bin\Debug\netstandard2.0\Cosmos.CRTCompat.dll
+C:\Users\barna\source\repos\WikidataEventSourcing\EventSourcing\bin\Debug\netstandard2.0\EventSourcing.pdb
+C:\Users\barna\source\repos\WikidataEventSourcing\EventSourcing\obj\Debug\netstandard2.0\EventSourcing.dll
+C:\Users\barna\source\repos\WikidataEventSourcing\EventSourcing\obj\Debug\netstandard2.0\EventSourcing.pdb
+C:\Users\barna\source\repos\WikidataEventSourcing\EventSourcing\obj\Debug\netstandard2.0\EventSourcing.csproj.CoreCompileInputs.cache

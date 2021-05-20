@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="WikidataClient.Model.WikidataEntity.WikidataEntity">
+    <Position X="8.5" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAQAAAAAABAAAAAAAACABAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Model\WikidataEntity\WikidataEntity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Redirects" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WikidataClient.Model.WikidataEntity.WikidataForm">
+    <Position X="8" Y="12.5" Width="3.5" />
+    <InheritanceLine Type="WikidataClient.Model.WikidataEntity.WikidataEntity" ManuallyRouted="true">
+      <Path>
+        <Point X="9.75" Y="3.757" />
+        <Point X="9.75" Y="4.206" />
+        <Point X="12.147" Y="4.206" />
+        <Point X="12.147" Y="12.076" />
+        <Point X="9.75" Y="12.076" />
+        <Point X="9.75" Y="12.5" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="Representations" Type="WikidataClient.Model.Property.Representation" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8" Y="12.938" />
+        <Point X="7.625" Y="12.938" />
+        <Point X="7.625" Y="15.311" />
+        <Point X="3.5" Y="15.311" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="GrammaticalFeatures" Type="WikidataClient.Model.Statement.Subjects.Item" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.5" Y="13.125" />
+        <Point X="12.072" Y="13.125" Type="JumpStart" />
+        <Point X="12.238" Y="13.125" Type="JumpEnd" />
+        <Point X="12.75" Y="13.125" />
+        <Point X="12.75" Y="6.906" />
+        <Point X="13.25" Y="6.906" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Model\WikidataEntity\WikidataForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Representations" />
+      <Property Name="GrammaticalFeatures" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WikidataClient.Model.WikidataEntity.WikidataItem">
+    <Position X="8.25" Y="4.75" Width="3" />
+    <AssociationLine Name="Labels" Type="WikidataClient.Model.Property.Label" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="5" />
+        <Point X="3.5" Y="5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Descriptions" Type="WikidataClient.Model.Property.Description" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="8.25" Y="5.188" />
+        <Point X="6.785" Y="5.188" />
+        <Point X="6.785" Y="7.125" />
+        <Point X="6.536" Y="7.125" Type="JumpStart" />
+        <Point X="6.37" Y="7.125" Type="JumpEnd" />
+        <Point X="3.5" Y="7.125" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Aliases" Type="WikidataClient.Model.Property.Alias" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="5.375" />
+        <Point X="7.088" Y="5.375" />
+        <Point X="7.088" Y="9.563" />
+        <Point X="3.75" Y="9.563" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="SiteLinks" Type="WikidataClient.Model.Property.SiteLink" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="5.625" />
+        <Point X="7.433" Y="5.625" />
+        <Point X="7.433" Y="11.34" />
+        <Point X="6.651" Y="11.34" Type="JumpStart" />
+        <Point X="6.485" Y="11.34" Type="JumpEnd" />
+        <Point X="3.75" Y="11.34" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAgAAAAAAEAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\WikidataEntity\WikidataItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Labels" />
+      <Property Name="Descriptions" />
+      <Property Name="Aliases" />
+      <Property Name="SiteLinks" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WikidataClient.Model.WikidataEntity.WikidataLexeme">
+    <Position X="8.5" Y="9.5" Width="2.5" />
+    <InheritanceLine Type="WikidataClient.Model.WikidataEntity.WikidataEntity" ManuallyRouted="true">
+      <Path>
+        <Point X="9.75" Y="3.757" />
+        <Point X="9.75" Y="4.103" />
+        <Point X="12.118" Y="4.103" />
+        <Point X="12.118" Y="9.277" />
+        <Point X="9.75" Y="9.277" />
+        <Point X="9.75" Y="9.5" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="LexicalCategory" Type="WikidataClient.Model.Statement.Subjects.Item" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11" Y="10" />
+        <Point X="12.064" Y="10" Type="JumpStart" />
+        <Point X="12.238" Y="10" Type="JumpEnd" />
+        <Point X="12.667" Y="10" Type="JumpStart" />
+        <Point X="12.833" Y="10" Type="JumpEnd" />
+        <Point X="16.031" Y="10" />
+        <Point X="16.031" Y="8.963" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Language" Type="WikidataClient.Model.Statement.Subjects.Item" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11" Y="9.812" />
+        <Point X="12.064" Y="9.812" Type="JumpStart" />
+        <Point X="12.238" Y="9.812" Type="JumpEnd" />
+        <Point X="12.667" Y="9.812" Type="JumpStart" />
+        <Point X="12.833" Y="9.812" Type="JumpEnd" />
+        <Point X="14.609" Y="9.812" />
+        <Point X="14.609" Y="8.963" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Lemmas" Type="WikidataClient.Model.Property.Lemma" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="9.999" />
+        <Point X="7.516" Y="9.999" Type="JumpStart" />
+        <Point X="7.35" Y="9.999" Type="JumpEnd" />
+        <Point X="6.568" Y="9.999" />
+        <Point X="6.568" Y="13.438" />
+        <Point X="3.5" Y="13.438" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Forms" Type="WikidataClient.Model.Statement.Subjects.Form" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11" Y="10.375" />
+        <Point X="12.064" Y="10.375" Type="JumpStart" />
+        <Point X="12.238" Y="10.375" Type="JumpEnd" />
+        <Point X="12.667" Y="10.375" Type="JumpStart" />
+        <Point X="12.833" Y="10.375" Type="JumpEnd" />
+        <Point X="19.417" Y="10.375" Type="JumpStart" />
+        <Point X="19.583" Y="10.375" Type="JumpEnd" />
+        <Point X="20.594" Y="10.375" />
+        <Point X="20.594" Y="11.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.45" Y="0.55" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Senses" Type="WikidataClient.Model.Statement.Subjects.Sense" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11" Y="10.188" />
+        <Point X="12.064" Y="10.188" Type="JumpStart" />
+        <Point X="12.238" Y="10.188" Type="JumpEnd" />
+        <Point X="12.667" Y="10.188" Type="JumpStart" />
+        <Point X="12.833" Y="10.188" Type="JumpEnd" />
+        <Point X="19.417" Y="10.188" Type="JumpStart" />
+        <Point X="19.583" Y="10.188" Type="JumpEnd" />
+        <Point X="22.917" Y="10.188" Type="JumpStart" />
+        <Point X="23.083" Y="10.188" Type="JumpEnd" />
+        <Point X="26.844" Y="10.188" />
+        <Point X="26.844" Y="11.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.541" Y="0.641" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AACgAAAACAAAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAAA=</HashCode>
+      <FileName>Model\WikidataEntity\WikidataLexeme.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LexicalCategory" />
+      <Property Name="Language" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Lemmas" />
+      <Property Name="Forms" />
+      <Property Name="Senses" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WikidataClient.Model.WikidataEntity.WikidataProperty">
+    <Position X="8.25" Y="7.25" Width="3" />
+    <InheritanceLine Type="WikidataClient.Model.WikidataEntity.WikidataEntity" ManuallyRouted="true">
+      <Path>
+        <Point X="9.75" Y="3.757" />
+        <Point X="9.75" Y="4.121" />
+        <Point X="12.189" Y="4.121" />
+        <Point X="12.189" Y="7.008" />
+        <Point X="9.75" Y="7.008" />
+        <Point X="9.75" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="Labels" Type="WikidataClient.Model.Property.Label" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="7.438" />
+        <Point X="7.516" Y="7.438" Type="JumpStart" />
+        <Point X="7.35" Y="7.438" Type="JumpEnd" />
+        <Point X="7.171" Y="7.438" Type="JumpStart" />
+        <Point X="7.005" Y="7.438" Type="JumpEnd" />
+        <Point X="6.453" Y="7.438" />
+        <Point X="6.453" Y="5.562" />
+        <Point X="3.5" Y="5.562" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Descriptions" Type="WikidataClient.Model.Property.Description" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="7.75" />
+        <Point X="7.516" Y="7.75" Type="JumpStart" />
+        <Point X="7.35" Y="7.75" Type="JumpEnd" />
+        <Point X="7.171" Y="7.75" Type="JumpStart" />
+        <Point X="7.005" Y="7.75" Type="JumpEnd" />
+        <Point X="3.5" Y="7.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Aliases" Type="WikidataClient.Model.Property.Alias" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="8.125" />
+        <Point X="7.875" Y="8.125" />
+        <Point X="7.875" Y="8.938" />
+        <Point X="7.516" Y="8.938" Type="JumpStart" />
+        <Point X="7.35" Y="8.938" Type="JumpEnd" />
+        <Point X="7.171" Y="8.938" Type="JumpStart" />
+        <Point X="7.005" Y="8.938" Type="JumpEnd" />
+        <Point X="3.75" Y="8.938" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAIgAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\WikidataEntity\WikidataProperty.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Labels" />
+      <Property Name="Descriptions" />
+      <Property Name="Aliases" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WikidataClient.Model.WikidataEntity.WikidataSense">
+    <Position X="8.5" Y="14.75" Width="2.5" />
+    <InheritanceLine Type="WikidataClient.Model.WikidataEntity.WikidataEntity" ManuallyRouted="true">
+      <Path>
+        <Point X="9.75" Y="3.757" />
+        <Point X="9.75" Y="4.13" />
+        <Point X="12.155" Y="4.13" />
+        <Point X="12.155" Y="14.501" />
+        <Point X="9.75" Y="14.501" />
+        <Point X="9.75" Y="14.75" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="Glosses" Type="WikidataClient.Model.Property.Gloss" FixedFromPoint="true">
+      <Path>
+        <Point X="8.5" Y="15.312" />
+        <Point X="8.125" Y="15.312" />
+        <Point X="8.125" Y="17.494" />
+        <Point X="3.5" Y="17.494" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\WikidataEntity\WikidataSense.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Glosses" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Predicate">
+    <Position X="24.25" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAEAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Predicate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Statement">
+    <Position X="15" Y="1.5" Width="1.75" />
+    <AssociationLine Name="Subjects" Type="WikidataClient.Model.Statement.Subjects.Subject">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.736" Y="0.092" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Statement.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Predicate" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Subjects" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.CommonsMedia">
+    <Position X="13.75" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\CommonsMedia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.ExternalIdentifier">
+    <Position X="26" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\ExternalIdentifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.Form">
+    <Position X="19.75" Y="11.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\Form.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.GeographicShape">
+    <Position X="17.75" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\GeographicShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.GlobeCoordinate">
+    <Position X="29.25" Y="15.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAEAAAAAAAAAIgBAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Model\Statement\Subjects\GlobeCoordinate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.Item">
+    <Position X="13.25" Y="6.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgAAEAAgAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\Item.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.Lexeme">
+    <Position X="29" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAgAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\Lexeme.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.MathematicalExpression">
+    <Position X="23.75" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\MathematicalExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.MonolingualText">
+    <Position X="20.5" Y="15.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAACAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\MonolingualText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.MusicalNotation">
+    <Position X="14.25" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\MusicalNotation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.Property">
+    <Position X="19.75" Y="6.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgAAEAAgAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\Property.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.Quantity">
+    <Position X="16.75" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\Quantity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.Sense">
+    <Position X="26.25" Y="11.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAABAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\Sense.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.String">
+    <Position X="23.5" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\String.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.Subject">
+    <Position X="20" Y="3" Width="3" />
+    <AssociationLine Name="References" Type="WikidataClient.Model.Statement.Statement">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-2.076" Y="0.133" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEADAAAAAAIAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\Subject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="References" />
+      <Property Name="Qualifiers" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.TabularData">
+    <Position X="23.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\TabularData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.Time">
+    <Position X="16.5" Y="11.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAAgAAAAAAAQAAAAAAAAAAgAAQAUAA=</HashCode>
+      <FileName>Model\Statement\Subjects\Time.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.Unknown">
+    <Position X="29" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\Unknown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WikidataClient.Model.Statement.Subjects.URL">
+    <Position X="26.25" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Statement\Subjects\URL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WikidataClient.Model.Property.Alias" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="8.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Property\Alias.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WikidataClient.Model.Property.Description" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Property\Description.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WikidataClient.Model.Property.Gloss" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="16.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Property\Gloss.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WikidataClient.Model.Property.Label" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Property\Label.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WikidataClient.Model.Property.Lemma" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="12.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Property\Lemma.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WikidataClient.Model.Property.Redirects">
+    <Position X="1.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Property\Redirects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WikidataClient.Model.Property.Representation" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="14.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Property\Representation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WikidataClient.Model.Property.SiteLink" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAgEAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Property\SiteLink.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
